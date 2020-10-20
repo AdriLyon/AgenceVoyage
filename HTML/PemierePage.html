@@ -39,8 +39,8 @@
             min="2020-12-01" max="2021-12-31"> <label for="end">Date de fin</label>
             
             <form method="post" action="FiltreVoyage" id="Filtre voyage">
-                <label for="">Voyage</label><br/>
-                    <select name="" id="voyage">
+                <label for="Classe">Voyage</label><br/>
+                    <select name="Classe" id="voyage">
                     <option value="" selected>Indifférent</option>
                     <option value="Eco">Eco</option>
                     <option value="Classique">Classique</option>
@@ -87,12 +87,12 @@
         </div>
 
         <div class="image">
-            <div class="one"><a href="templates/Reservation.html?id=1"> <img src="LeCaire.jpg" height="400" width="650"></a> <figcaption>Le Caire</figcaption> </div>
-            <div class="two"> <a href="templates/Reservation.html?id=2">  <img src="Casablanca.jpeg" height="400" width="650"></a> <figcaption>Casablanca</figcaption></div>
-            <div class="three"><a href="templates/Reservation.html?id=3"><img src="Johannesburg.jpeg" height="400" width="650"></a> <figcaption>Johannesburg</figcaption></div>
-            <div class="four"><a href="templates/Reservation.html?id=4"> <img src="Madagascar.jpeg" height="400" width="650"></a> <figcaption>Madagascar</figcaption></div>
-            <div class="five"><a href="templates/Reservation.html?id=5"> <img src="Zimbabwe.jpeg" height="400" width="650"></a> <figcaption>Zimbabwe</figcaption></div>
-            <div class="six"><a href="templates/Reservation.html?id=6"> <img src="Tanzanie.jpeg" height="400" width="650"></a> <figcaption>Tanzanie</figcaption></div>
+            <div class="one"><a href="templates/Reservation.html?id=1"> <img src="LeCaire.jpg"  onmouseover="javascript:this.src='Casablanca.jpeg';  "onmouseout="javascript:this.src='LeCaire.jpg';" height="400" width="650"></a> <figcaption>Le Caire</figcaption> </div>
+            <div class="two"> <a href="templates/Reservation.html?id=2">  <img src="Casablanca.jpeg" onmouseover="javascript:this.src='Casablanca.jpeg';"onmouseout="javascript:this.src='LeCaire.jpg';" height="400" width="650"></a> <figcaption>Casablanca</figcaption></div>
+            <div class="three"><a href="templates/Reservation.html?id=3"><img src="Johannesburg.jpeg" onmouseover="javascript:this.src='Casablanca.jpeg';"onmouseout="javascript:this.src='LeCaire.jpg';" height="400" width="650"></a> <figcaption>Johannesburg</figcaption></div>
+            <div class="four"><a href="templates/Reservation.html?id=4"> <img src="Madagascar.jpeg"onmouseover="javascript:this.src='Casablanca.jpeg';"onmouseout="javascript:this.src='LeCaire.jpg';" height="400" width="650"></a> <figcaption>Madagascar</figcaption></div>
+            <div class="five"><a href="templates/Reservation.html?id=5"> <img src="Zimbabwe.jpeg"onmouseover="javascript:this.src='Casablanca.jpeg';"onmouseout="javascript:this.src='LeCaire.jpg';" height="400" width="650"></a> <figcaption>Zimbabwe</figcaption></div>
+            <div class="six"><a href="templates/Reservation.html?id=6"> <img src="Tanzanie.jpeg" onmouseover="javascript:this.src='Casablanca.jpeg';"onmouseout="javascript:this.src='LeCaire.jpg';"height="400" width="650"></a> <figcaption>Tanzanie</figcaption></div>
 
         </div>
     <div class="piedpage">
