@@ -1,0 +1,24 @@
+body {
+    background-color: gainsboro;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+  }
+
+a:link, a:visited {
+    background-color: indianred;
+    color: ivory;
+    padding: 14px 30px;
+    text-align: justify;
+    display: inline-block;
+}
+
+div {
+
+    }
+.destinations {
+    position: absolute;
+    width: 100%;
+}

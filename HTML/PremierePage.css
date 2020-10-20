@@ -1,0 +1,133 @@
+body {
+   /* background-image: url("fondAfrique.jpeg") ;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+title{
+    color: brown;
+    text-align: center;
+    font-size: 100px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+  }
+
+a:link, a:visited {
+
+    /*background-color: whitesmoke;*/
+    color: black;
+    padding: 14px 30px;
+    text-align: justify;
+    display: inline-block;
+}
+figcaption {
+  display: inline-block; 
+  text-align: center;
+  font-size: x-large;
+}
+.image {
+
+
+    display: grid;
+    grid-template-columns: 100px 800px 800px 100px;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.one {
+    grid-column: 2 ;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+.destinations {
+    position: absolute;
+    width: 100%;
+}
+
+.entete
+{
+  background-color: chocolate;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.image {
+  grid column : 1;
+  grid-row : 1;
+}
+.un {
+  grid-column: 2/4 ;
+  grid-row: 1;
+  position: relative;
+
+}
+.un h1{
+  position: absolute;
+  bottom: 0;
+  margin: 1em auto;
+  width: 100%;
+}
+.deux { 
+  grid-column: 1;
+  grid-row: 2;
+
+}
+.trois {
+  grid-column: 2;
+  grid-row: 2;
+}
+.quatre {
+  grid-column: 3;
+  grid-row: 2;
+}
+.cinq {
+  grid-column: 4;
+  grid-row: 2;
+}
+.mdp {
+  grid-column: 4;
+  grid-row: 1;
+  text-align: left;
+}
+
+.piedpage {
+
+  background-color: chocolate;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.home {
+  grid-column: 1;
+
+}
+.contact {
+  grid-column: 4;
+
+}

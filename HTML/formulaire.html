@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+		<img src="logo.jpg" height="100" width="100"/>
+		<a href="panier.html" target="_blank"> <input type="button" value="Panier"> </a>
+        <meta charset ="UTF-8">
+        <title> AGENCE DE VOYAGE </title>
+    </head>
+   
+    <body>
+        <h1>AFRICAN TRAVELLERS</h1>
+        <a href="PemierePage.html"> <h2>Page Principal</h2></a>
+        <a href="formulaire.html"> <h2>Reservation</h2></a>
+        <a href="recapitulatif.html"> <h2>Recapitulatif</h2></a>
+        <a href="contact.html"> <h2>Contacts</h2></a>
+		<h1>Réservation pour un voyage à ______js^p</h1>
+		<p>Veuillez remplir le formulaire ci-dessous:</p>
+
+		<form  method="post" action="traitement.php">
+			<p>
+				<label for="Nom">Votre nom* :</label>
+				<br /><input type="text" name="Nom" id="Nom" required/>
+					
+				<br />
+				<label for="Prénom">Votre prénom* :</label>
+				<br /><input type="text" name="Prénom" id="Prénom" required/>
+
+				<br />
+				<label for="email">Votre adresse mail* :</label>
+				<br /><input type="email" name="email" id="email" required/>
+
+				<br />
+				<label for="Numero">Votre numéro de téléphone :</label>
+				<br /><input type="tel" name="Numéro de téléphone" id="Numero" />
+
+				<br />
+				<label for="datedepart">Votre date de départ* :</label>
+				<br /><input type="date" name="date départ" id="datedepart" required/>
+
+				<br />
+				<label for="dateretour">Votre date de retour* :</label>
+				<br /><input type="date" name="date retour" id="dateretour"  required/>
+
+				<br />
+				<label for="nbradultes">Saisir le nombre d'adultes* :</label>
+				<br /><input type="number" name="nbradultes" id="nbradultes" min="0" max="100" required/>
+
+				<br />
+				<label for="nbrenfants">Saisir le nombre d'enfants (-12 ans)* :</label>
+				<br /><input type="number" name="nbrdenfants" id="nbrenfants" min="0" max="12" required/>
+
+				<br />
+				<label for="Animal">Animal de compagnie ?*: </label>
+				<br /><input type="radio" name="Animal" id="Animal" value="Oui" required/> 
+				<label for="Animal">Oui</label><input type="radio" name="Animal" id="Animal" value="Non" required/> 
+				<label for="Animal">Non</label>
+
+				<br />
+				<label for="classes">voyager en classe*: </label>
+				<br /><input type="radio" name="classe" id="classeco" value="Classe eco" required/> 
+				<label for="petitdej">Classe économique</label>
+				<input type="radio" name="classe" id="classclass" value="Classe classique"required/> 
+				<label for="petitdej">Classe classique</label>
+				<input type="radio" name="classe" id="classpreno" value="Classe prenium" required/> 
+				<label for="petitdej">Classe prenium</label>
+
+				<br />
+				<label for="petitdej">Petit-déjeuner ?*: </label>
+				<br /><input type="radio" name="petitdej" id="petitdej" value="Oui" required/> 
+				<label for="petitdej">Oui</label><input type="radio" name="petitdej" id="petitdej" value="Non" required/> 
+				<label for="petitdej">Non</label>
+
+				<br />
+				<label for="renseignement">Souhaitez-vous ajouter un renseignement? :</label>
+				<br /><input type="text" name="renseignement" id="renseignement"/>
+				<p>*:champs obligatoires</p>
+				<p>Le prix final pour ce vol est de ____ trouver comment calculer</p>	
+				<br />
+				<br />
+				
+				<a href="formulaire.html" target="_blank"> <input type="button" value="Tout effacer"> </a>
+				<br /><a href="recapitulatif.html" target="_blank"> <input type="submit" value="Confirmer la réservation"> </a>
+				
+				<br />
+				<br /><a href="PemierePage.html" target="_blank"> <input type="button" value="Home"> </a> <a href="contact.html" target="_blank"> <input type="button" value="@contact"> </a>
+			
+			</p>
+		</form>
+	</body>
+</html> 

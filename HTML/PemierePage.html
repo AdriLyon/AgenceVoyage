@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <head>
+        <script src="PremierePage.js"></script>
+        <link rel="stylesheet" href="PremierePage.css">
+        <link rel="icon" href="logo.jpg" type="image/gif" sizes="20x20">
+        <meta charset ="UTF-8">
+        <title> African Travellers </title>>
+    </head>
+   
+    <body>
+        <div class="entete">  
+            <div class="image"> <img src="logo.jpg" height="300" width="300"/> </div>          
+            <div class="un"> <h1>African Travellers</h1></div>
+            <div class="deux"> <a href="PemierePage.html"> <h2>Page Principal</h2></a></div>
+            <div class="trois"> <a href="formulaire.html"> <h2>Reservation</h2></a></div>
+            <div class="quatre"><a href="recapitulatif.html"> <h2>Recapitulatif</h2></a></div>
+            <div class="cinq"><a href="contact.html"> <h2>Contacts</h2></a></div>
+            <div class="mdp"><form>
+                <fieldset>
+                    <legend>Identification</legend>
+                    Identifiant : <br>
+                    <input type="text" re><br>
+                    Mot de passe : <br>
+                    <input type="text" required><br>
+                </fieldset><br>
+            </form></div>
+        </div>
+        
+
+        <div>
+           <!-- <form action="" method="GET"></form> 
+            <input type="range" id="prix" name="prix" min="0" max="1000">
+            <label for="prix">Prix max/personne/nuit</label>-->
+
+            <input type="date" id="start" name="debutvoyage" value="2020-10-01"
+            min="2020-12-01" max="2021-12-31"> <label for="start">Date de début</label>
+            &nbsp;
+            <input type="date" id="end" name="finvoyage" value="2020-12-01"
+            min="2020-12-01" max="2021-12-31"> <label for="end">Date de fin</label>
+            
+            <form method="post" action="FiltreVoyage" id="Filtre voyage">
+                <label for="">Voyage</label><br/>
+                    <select name="" id="voyage">
+                    <option value="" selected>Indifférent</option>
+                    <option value="Eco">Eco</option>
+                    <option value="Classique">Classique</option>
+                    <option value="Premium">Premium</option>
+
+                    </select><br/><br/>
+                 
+                <label for="animaux">ANIMAUX ACCEPTÉS</label><br/>
+                    <select name="animaux" id="animaux">
+                    <option value="" selected>Indifférent</option>
+                    <option value="oui">Oui</option>
+                    <option value="non">Non</option>
+                    </select><br/><br/>
+
+                    <label for="Prix par Nuit et par personnes">Prix Par Nuit et Par Personnes</label><br/>
+                    <select name="prix" id="prix">
+                    <option value="" selected>Indifférent</option>
+                    <option value="">Moins de 100£</option>
+                    <option value="">Entre 100 et 200£</option>
+                    <option value="">Entre 200 et 300£</option>
+                    <option value="">Plus de 300£</option>
+                    </select><br/><br/>
+                 
+                <input type="submit" value="Valider" name="requete" />
+                 
+                </form>
+               <!-- Animaux de compagnie? 
+                <input type="radio" name="animaux" id="oui" value="oui">
+                <label for="oui">Oui</label>
+                <input type="radio" name="animaux" id="non" value="non">
+                <label for="non">Non</label>
+
+                Voyage
+                <input type="radio" name="voyage" id="eco" value="eco">
+                <label for="eco">Eco</label>
+                <input type="radio" name="voyage" id="Classique" value="Classique">
+                <label for="Classique">Classique</label>
+                <input type="radio" name="voyage" id="Premium" value="Premium">
+                <label for="Premium">Premium</label>
+        
+
+            <input type="submit" value="Valider les filtres">
+            </form>-->
+        </div>
+
+        <div class="image">
+            <div class="one"><a href="templates/Reservation.html?id=1"> <img src="LeCaire.jpg" height="400" width="650"></a> <figcaption>Le Caire</figcaption> </div>
+            <div class="two"> <a href="templates/Reservation.html?id=2">  <img src="Casablanca.jpeg" height="400" width="650"></a> <figcaption>Casablanca</figcaption></div>
+            <div class="three"><a href="templates/Reservation.html?id=3"><img src="Johannesburg.jpeg" height="400" width="650"></a> <figcaption>Johannesburg</figcaption></div>
+            <div class="four"><a href="templates/Reservation.html?id=4"> <img src="Madagascar.jpeg" height="400" width="650"></a> <figcaption>Madagascar</figcaption></div>
+            <div class="five"><a href="templates/Reservation.html?id=5"> <img src="Zimbabwe.jpeg" height="400" width="650"></a> <figcaption>Zimbabwe</figcaption></div>
+            <div class="six"><a href="templates/Reservation.html?id=6"> <img src="Tanzanie.jpeg" height="400" width="650"></a> <figcaption>Tanzanie</figcaption></div>
+
+        </div>
+    <div class="piedpage">
+        <div class="home"><a href="PemierePage.html" > <img src="homelogo.png" height="100" width="100"></a></div>
+        <div class="contact"></div><a href="contact.html"> <img src="contactlogo.png" height="100" width="100"> </a></div>
+    </div>    
+    </body>
